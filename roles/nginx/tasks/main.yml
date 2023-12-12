@@ -1,6 +1,7 @@
 - name: install nginx
   yum: 
     name:
+      - epel-release
       - nginx
     state: present
     update_cache: yes
